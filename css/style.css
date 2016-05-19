@@ -1,0 +1,219 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors jqx (272670445@qq.com)
+ * @date    2016-05-09 11:07:24
+ * @version $Id$
+ */
+/*初始化*/
+html,head,body,div,h3,h4,h5,ul,li,dl,dt,dd,p,img,span,a,i,b{
+	margin: 0; padding: 0;
+}
+img{
+	border: 0 none;
+	vertical-align: baseline;
+}
+li{
+	list-style: none;
+}
+a{
+	color: #fee201;
+	text-decoration: none;
+} 
+a:hover{
+	color: #000;
+}
+.clearfix{
+	*zoom:1;
+}
+.clearfix:after{
+	content: ".";
+	clear: both;
+	display: block;
+	overflow: hidden;
+	height: 0;
+	font-size: 0;
+}
+html{
+	font-size: 625%;
+}
+body{
+	background: #001431;
+	font-family: "宋体";
+	color: #bababa;
+	max-width: 640px;
+	min-width: 320px;
+	margin: 0 auto;
+	font-size: 0.24rem;
+}
+#header{
+	height: 2.61rem;
+	width: 100%;
+}
+#header img{
+	width: 100%;
+}
+/*电影介绍*/
+.title{
+	background: url(../images/conTitBg.png);
+	background-size: 100% 100%;
+	color: #fffc00;
+	font-size: 0.3rem;
+	text-align: center;
+	line-height: 0.6rem;
+	width: 100%;
+}
+.movie{
+	margin: 0.11rem auto 0.17rem;
+	width: 6.06rem;
+	border: #002f72 1px solid;
+	border-radius: 0.09rem;
+	padding: 0.11rem 0.1rem 0.16rem 0.12rem;
+	box-shadow: 0 0 0.07rem #0c2952;
+}
+.movieInt{
+	padding-bottom: 0.14rem;
+}
+.movieInt img{
+	float: left;
+	border: #bdb881 2px solid;
+	border-radius: 0.02rem;
+	width: 1.72rem;
+	margin-right: 0.24rem;
+}
+.movieIntText{
+	width: 3.95rem;
+	float: left;
+	font-family: "微软雅黑";
+	margin-top: -0.03rem;
+	line-height: 0.48rem;
+}
+.textType,.childTextType{
+	float: left;
+	width: 1.24rem;
+	color: #00a8ff;
+}
+.textName,.childTextName{
+	float: left;
+	margin-left: 0.05rem;
+	width: 2.66rem;
+}
+.textName span,.childTextName span{
+	display: block;
+	white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.textBtn{
+	float: left;
+	margin: 0.09rem 0 0 0.55rem;
+	width: 2.97rem;
+}
+.textBtn a{
+	display: block;
+	background: url(../images/textBtnBg.png) no-repeat;
+	line-height: 0.54rem;
+	font-size: 0.27rem;
+}
+.movieComment{
+	padding-top: 0.15rem;
+	border-top: #002f71 1px dashed;
+}
+.movieComment img{
+	float: left;
+	width: 0.35rem;
+}
+.movieComment h4{
+	float: left;
+	color: #00a8ff;
+	line-height: 0.36rem;
+}
+.movieCommentUl{
+	font-family: "微软雅黑";
+	float: left;
+	width: 5.94rem;
+	height: 0.93rem;
+	text-align: justify;
+	overflow: hidden;
+	margin: 0.09rem 0 0.13rem 0;
+}
+.movieCommentUl li{
+	background: #0048b1;
+	border: #00255c 1px solid;
+	height: 0.38rem;
+	line-height: 0.38rem;
+	padding: 0 0.05rem;
+	display: inline-block;
+	color: #ffe200;
+	margin-bottom: 0.07rem;
+}
+.movieBuy{
+	margin: 0 auto;
+	padding: 0.11rem 0.46rem 0;
+	border-top: #002f71 1px dashed;
+	width: 5.10rem;
+	height: 0.98rem;
+}
+.movieBuy p{
+	text-align: center;
+	font-size: 0.2888rem;
+	color: #ffeb00;
+	margin-bottom: 0.09rem;
+}
+.movieBuy a{
+	width: 2.51rem;
+	height: 0.56rem;
+	margin-right: -0.04rem;
+}
+.movieBuy a img{
+	width: 2.51rem;
+}
+/*六一节*/
+.child{
+	padding-bottom: 0.27rem;
+}
+.child .title{
+	margin: 0.09rem 0 0.04rem 0;
+}
+.childMovie{
+	position: relative;
+	padding: 0.29rem 0.8rem 0.24rem 0.15rem;
+	border-bottom: #002f71 1px dashed;
+}
+.childMovie img{
+	float: left;
+	border: #f0e990 1px solid;
+	margin-right: 0.21rem;
+	width: 1.18rem;
+}
+.childMovie h4{
+	width: 3.91rem;
+	float: left;
+	height: 0.36rem;
+	line-height: 0.36rem;
+	font-size: 0.3rem;
+	color: #00a8ff;
+}
+.childTextType,.childTextName{
+	line-height: 0.48rem;
+	font-family: "微软雅黑";
+}
+.childTextName{
+	margin-left: 0.1rem;
+}
+.moreMovie{
+	position: absolute;
+	font-size: 0.36rem;
+	color: #bababa;
+ 	right: 0.22rem;
+ 	top: 0.87rem;
+}
+.tenRmb{
+	position: absolute;
+	display: block;
+	background: url(../images/10yuan.png) no-repeat;
+	background-size: 0.73rem 0.62rem;
+	width: 0.73rem;
+	height: 0.62rem;
+	text-indent: -99em;
+}
